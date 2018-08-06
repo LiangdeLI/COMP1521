@@ -1,0 +1,10 @@
+set a = 1001001001001001001001
+set b = 1010101010101010101010
+show a
+show b
+c = a | b
+c = a & b
+d = ~ c
+e = c | d
+e = ~ e
+show a
